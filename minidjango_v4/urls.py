@@ -21,5 +21,5 @@ from jobs import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     # path("",views.welcome),
-         path("jobs/", include("jobs.urls"))
+    path("jobs/", include("jobs.urls"))
 ]
